@@ -1,0 +1,16 @@
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.testimonial-scroll {
+  animation: scroll-left 30s linear infinite;
+}
+
+.testimonial-scroll:hover {
+  animation-play-state: paused;
+}
