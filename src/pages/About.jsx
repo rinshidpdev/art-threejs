@@ -12,6 +12,8 @@ import GeminiEffectDemo from '../components/ui/GeminiEffectDemo'
 import OrbitingLogos from '../components/OrbitingLogos'
 import Testimonials from '../components/Testimonials/Testimonials'
 
+import BlogPage from '../components/Blogs/BlogPage'
+
 
 const About = () => {
   return (
@@ -22,9 +24,12 @@ const About = () => {
     <ArtflexShowcase/>
     <Features/>
     <VideoPinSection/>
-   <GeminiEffectDemo/>
+ 
    <OrbitingLogos/>
+     <GeminiEffectDemo/>
+     <BlogPage/>
    <Testimonials/>
+  
    
     </>
   )

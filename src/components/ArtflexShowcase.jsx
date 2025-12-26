@@ -141,7 +141,7 @@ const ArtflexShowcase = () => {
             <div
               key={service.id}
               ref={(el) => (cardsRef.current[index] = el)}
-              className="mt-6 w-full bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl overflow-hidden shadow-2xl border border-slate-700/50"
+              className="mt-6 w-full bg-[#0f1226] rounded-3xl overflow-hidden shadow-2xl border border-slate-700/50"
             >
               <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-6 md:gap-8 p-6 md:p-10 min-h-[500px]">
                 {/* Left Side - Content */}

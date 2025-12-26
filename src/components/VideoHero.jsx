@@ -80,10 +80,10 @@ import bg1 from "../assets/aboutV.webm";
 import bg2 from "../assets/istockphoto-1288131372-640_adpp_is.mp4";
 
 // Import your icon images
-import infrastructureIcon from "../assets/image.png";
-import cyberSecurityIcon from "../assets/image.png";
-import cloudIcon from "../assets/image.png";
-import amcIcon from "../assets/image.png";
+import infrastructureIcon from "../assets/vi.png";
+import cyberSecurityIcon from "../assets/vi.png";
+import cloudIcon from "../assets/vi.png";
+import amcIcon from "../assets/vi.png";
 
 export default function VideoHero({
   title = (

@@ -33,4 +33,42 @@
       max-width: 120px;
     }
   }
+/*   
+  .cans-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.can-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.can {
+  width: 200px;
+  height: auto;
+}
+
+
+
+@media (max-width: 768px) {
+  .can {
+    width: 150px;
+  }
   
+  .can-label {
+    font-size: 1rem;
+  }
+} */
+
+.can-label {
+  margin-top: .5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #37B4BE;
+  text-align: center;
+}

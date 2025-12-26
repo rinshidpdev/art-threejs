@@ -382,12 +382,13 @@ import { useRef } from "react";
 import React from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import { performanceImages, performanceImgPositions } from "../constants/index.js";
+import { performanceImages, performanceImgPositions } from "../constants";
 import { useMediaQuery } from "react-responsive";
-import trust1 from '../assets/trust1.png'
-import trust2 from '../assets/trust2.png'
-import trust3 from '../assets/trust3.png'
-import trust4 from '../assets/trust4.png'
+import trust1 from "../assets/trust1.png";
+import trust2 from "../assets/trust2.png";
+import trust3 from "../assets/trust3.png";
+import trust4 from "../assets/trust4.png";
+import { PinContainer } from "./ui/3d-pin";
 
 const Performance = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
@@ -430,7 +431,6 @@ const Performance = () => {
         },
       });
 
-      // Position Each Performance Image
       performanceImgPositions.forEach((item) => {
         if (item.id === "p5") return;
 
@@ -440,7 +440,6 @@ const Performance = () => {
         if (typeof item.left === "number") vars.left = `${item.left}%`;
         if (typeof item.right === "number") vars.right = `${item.right}%`;
         if (typeof item.bottom === "number") vars.bottom = `${item.bottom}%`;
-
         if (item.transform) vars.transform = item.transform;
 
         tl.to(selector, vars, 0);
@@ -453,23 +452,23 @@ const Performance = () => {
     {
       label: "[ PROVEN RESULTS ]",
       title: "500+ businesses secured",
-      image: trust1
+      image: trust1,
     },
     {
       label: "[ SEAMLESS INTEGRATION ]",
       title: "Works with your existing tools",
-      image: trust2
+      image: trust2,
     },
     {
       label: "[ TAILORED FOR YOU ]",
       title: "Custom security solutions",
-      image: trust3
+      image: trust3,
     },
     {
       label: "[ ONGOING SUPPORT ]",
       title: "We ensure your systems run smoothly",
-      image: trust4
-    }
+      image: trust4,
+    },
   ];
 
   return (
@@ -519,31 +518,36 @@ const Performance = () => {
           Why Top Brands Trust Us
         </h3>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {trustCards.map((card, index) => (
-            <div
+            <PinContainer
               key={index}
-              className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 border border-slate-700 hover:border-purple-500/50 transition-all duration-300 flex flex-col items-center text-center h-[500px]"
+              title={card.title}
+              href="#"
+              containerClassName="flex items-center justify-center"
+              className="w-[260px] h-[360px]"
             >
-              {/* Bracket Label */}
-              <div className="text-xs font-bold text-gray-400 tracking-wider mb-8 uppercase">
-                {card.label}
-              </div>
+              <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-6 border border-slate-700/60 flex flex-col items-center text-center w-[260px] h-[360px]">
+                {/* Bracket Label */}
+                <div className="text-[10px] font-bold text-gray-400 tracking-[0.16em] mb-6 uppercase">
+                  {card.label}
+                </div>
 
-              {/* 3D Image */}
-              <div className="flex-1 flex items-center justify-center mb-8">
-                <img 
-                  src={card.image} 
-                  alt={card.title}
-                  className="w-64 h-64 object-contain"
-                />
-              </div>
+                {/* 3D Image */}
+                <div className="flex-1 flex items-center justify-center mb-6">
+                  <img
+                    src={card.image}
+                    alt={card.title}
+                    className="w-40 h-40 object-contain"
+                  />
+                </div>
 
-              {/* Title */}
-              <h4 className="text-2xl font-bold text-white leading-tight">
-                {card.title}
-              </h4>
-            </div>
+                {/* Title */}
+                <h4 className="text-lg font-bold text-white leading-snug">
+                  {card.title}
+                </h4>
+              </div>
+            </PinContainer>
           ))}
         </div>
       </div>

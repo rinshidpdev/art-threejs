@@ -32,8 +32,8 @@ export default function ParallaxScroll() {
     <>
       <style>{`
         * {
-          margin: 0;
-          padding: 0;
+          // margin: 0;
+          // padding: 0;
           box-sizing: border-box;
         }
         body {
@@ -111,7 +111,7 @@ export default function ParallaxScroll() {
               flexDirection: 'column'
             }}>
               <div style={{ width: '100%' }}></div>
-              <div style={{ fontSize: '4dvw' }}>About</div>
+              <div style={{ fontSize: '4dvw', margin:'20px' }}>About us</div>
             </div>
             <div id="textRight" style={{
               width: '80%',
@@ -119,7 +119,8 @@ export default function ParallaxScroll() {
               display: 'flex',
               justifyContent: 'end',
               alignItems: 'center',
-              flexDirection: 'column'
+              flexDirection: 'column',
+              textAlign:'center'
             }}>
               <div style={{ width: '50%', fontSize: '4dvw' }}></div>
               <div></div>

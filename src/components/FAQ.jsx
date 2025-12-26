@@ -41,7 +41,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="relative w-full overflow-hidden bg-[#0a0e27] py-20 px-5">
+    <section className="relative w-full overflow-hidden bg-[#00000] py-20 px-5">
       <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1fr_2fr] lg:gap-16">
         {/* Left side */}
         <div className="lg:sticky lg:top-24 lg:self-start">

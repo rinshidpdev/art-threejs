@@ -42,12 +42,26 @@ import Cloud from "./components/services/Cloud";
 import Infrastructure from "./components/services/Infrastructure";
 
 
+import BlogDetailPage from "./components/Blogs/BlogDetailPage";
+import BlogPage from "./components/Blogs/BlogPage";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import ServiceSec from "./pages/ServiceSec";
+
+
 
 
 const App = () => {
   return (
+     
+      <>
+       <Navbar/>
     <Routes>
+    
+       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
+      <Route path="/service" element={<ServiceSec/>}/>
+     
 
 
       <Route path="/services/cybersecurity" element={<CyberSecurityPage/>}/>
@@ -55,9 +69,13 @@ const App = () => {
       <Route path="/services/cloud" element={<Cloud/>}/>
       <Route path="/services/infrastructure" element={<Infrastructure/>}/>
 
+      <Route path="/blog" element={<BlogPage/>}/>
+      <Route path="/blog/:id" element={<BlogDetailPage/>}/>
+
 
      
     </Routes>
+    </>
   );
 };
 

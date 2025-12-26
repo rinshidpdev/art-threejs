@@ -16,7 +16,8 @@ import { Color, SRGBColorSpace } from 'three';
 
 export default function MacbookModel16(props) {
     const { color } = useMacbookStore();
-  const { nodes, materials, scene} = useGLTF('/models/macbook-16-transformed.glb')
+  // const { nodes, materials, scene} = useGLTF('/models/macbook-16-transformed.glb')
+  const { nodes, materials, scene} = useGLTF('/models/CAR2.glb')
 
     const texture = useTexture('/screen.png');
     texture.colorSpace = SRGBColorSpace;
@@ -59,4 +60,5 @@ export default function MacbookModel16(props) {
   )
 }
 
-useGLTF.preload('/models/macbook-16-transformed.glb')
+useGLTF.preload('/models/CAR2.glb')
+// useGLTF.preload('/models/macbook-16-transformed.glb')
