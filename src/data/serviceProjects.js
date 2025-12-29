@@ -8,72 +8,72 @@ export const cyberSecurityProjects = [
   {
     title: "Firewall Solutions",
     link: "/services/cybersecurity#firewall",
-    thumbnail: "/projects/firewall.jpg",
+    thumbnail: "/cyber2.jpg",
   },
   {
     title: "Email Security",
     link: "/services/cybersecurity#email",
-    thumbnail: "/projects/email-security.jpg",
+    thumbnail: "/cyber3.jpg",
   },
   {
     title: "MDR Solutions",
     link: "/services/cybersecurity#mdr",
-    thumbnail: "/projects/mdr.jpg",
+    thumbnail: "/cyber4.jpg",
   },
   {
     title: "UEM Solutions",
     link: "/services/cybersecurity#uem",
-    thumbnail: "/projects/uem.jpg",
+    thumbnail: "/cyber5.jpg",
   },
   {
     title: "NDR Solutions",
     link: "/services/cybersecurity#ndr",
-    thumbnail: "/projects/ndr.jpg",
+    thumbnail: "/cyber6.jpg",
   },
   {
     title: "Identity Threat Detection",
     link: "/services/cybersecurity#identity",
-    thumbnail: "/projects/identity-threat.jpg",
+    thumbnail: "/cyber7.jpg",
   },
   {
     title: "Response Advisory",
     link: "/services/cybersecurity#advisory",
-    thumbnail: "/projects/advisory.jpg",
+    thumbnail: "/cyber8.jpg",
   },
   {
     title: "Security Audit",
     link: "/services/cybersecurity#audit",
-    thumbnail: "/projects/security-audit.jpg",
+    thumbnail: "/cyber9.jpg",
   },
   {
     title: "Penetration Testing",
     link: "/services/cybersecurity#pentest",
-    thumbnail: "/projects/pentest.jpg",
+    thumbnail: "/cyber10.jpg",
   },
   {
     title: "Threat Intelligence",
     link: "/services/cybersecurity#threat",
-    thumbnail: "/projects/threat-intel.jpg",
+    thumbnail: "/cyber11.jpg",
   },
   {
     title: "SOC Services",
     link: "/services/cybersecurity#soc",
-    thumbnail: "/projects/soc.jpg",
+    thumbnail: "/cyber12.jpg",
   },
   {
     title: "Data Protection",
     link: "/services/cybersecurity#data",
-    thumbnail: "/projects/data-protection.jpg",
+    thumbnail: "/cyber13.jpg",
   },
   {
     title: "Compliance Solutions",
     link: "/services/cybersecurity#compliance",
-    thumbnail: "/projects/compliance.jpg",
+    thumbnail: "/cyber14.jpg",
   },
   {
     title: "Zero Trust Architecture",
     link: "/services/cybersecurity#zerotrust",
-    thumbnail: "/projects/zerotrust.jpg",
+    thumbnail: "/cyber15.jpg",
   },
 ];
 
@@ -82,78 +82,78 @@ export const infrastructureProjects = [
   {
     title: "Active Infrastructure",
     link: "/services/infrastructure#active",
-    thumbnail: "/projects/active-infra.jpg",
+    thumbnail: "/inf1.jpg",
   },
   {
     title: "Access Points",
     link: "/services/infrastructure#accesspoints",
-    thumbnail: "/projects/access-points.jpg",
+    thumbnail: "/inf2.jpg",
   },
   {
     title: "CCTV Cameras",
     link: "/services/infrastructure#cctv",
-    thumbnail: "/projects/cctv.jpg",
+    thumbnail: "/inf3.jpg",
   },
   {
     title: "Network Switches",
     link: "/services/infrastructure#switches",
-    thumbnail: "/projects/switches.jpg",
+    thumbnail: "/inf4.jpg",
   },
   {
     title: "Server Solutions",
     link: "/services/infrastructure#servers",
-    thumbnail: "/projects/servers.jpg",
+    thumbnail: "/inf5.jpg",
   },
   {
     title: "Storage Systems",
     link: "/services/infrastructure#storage",
-    thumbnail: "/projects/storage.jpg",
+    thumbnail: "/inf6.jpg",
   },
   {
     title: "Virtualization Platforms",
     link: "/services/infrastructure#virtualization",
-    thumbnail: "/projects/virtualization.jpg",
+    thumbnail: "/inf7.jpg",
   },
   {
     title: "Backup Solutions",
     link: "/services/infrastructure#backup",
-    thumbnail: "/projects/backup.jpg",
+    thumbnail: "/inf8.jpg",
   },
   {
     title: "Structured Cabling",
     link: "/services/infrastructure#cabling",
-    thumbnail: "/projects/cabling.jpg",
+    thumbnail: "/inf9.jpg",
   },
   {
     title: "Racks & Cabinets",
     link: "/services/infrastructure#racks",
-    thumbnail: "/projects/racks.jpg",
+    thumbnail: "/inf10.jpg",
   },
-  {
-    title: "Power Systems",
-    link: "/services/infrastructure#power",
-    thumbnail: "/projects/power-systems.jpg",
-  },
-  {
-    title: "Data Center Setup",
-    link: "/services/infrastructure#datacenter",
-    thumbnail: "/projects/datacenter.jpg",
-  },
-  {
-    title: "Network Design",
-    link: "/services/infrastructure#network",
-    thumbnail: "/projects/network-design.jpg",
-  },
-  {
-    title: "Hardware Supply",
-    link: "/services/infrastructure#hardware",
-    thumbnail: "/projects/hardware.jpg",
-  },
-  {
-    title: "Infrastructure Audit",
-    link: "/services/infrastructure#audit",
-    thumbnail: "/projects/infra-audit.jpg",
-  },
+  // {
+  //   title: "Power Systems",
+  //   link: "/services/infrastructure#power",
+  //   thumbnail: "/projects/power-systems.jpg",
+  // },
+  // {
+  //   title: "Data Center Setup",
+  //   link: "/services/infrastructure#datacenter",
+  //   thumbnail: "/projects/datacenter.jpg",
+  // },
+  // {
+  //   title: "Network Design",
+  //   link: "/services/infrastructure#network",
+  //   thumbnail: "/projects/network-design.jpg",
+  // },
+  // {
+  //   title: "Hardware Supply",
+  //   link: "/services/infrastructure#hardware",
+  //   thumbnail: "/projects/hardware.jpg",
+  // },
+  // {
+  //   title: "Infrastructure Audit",
+  //   link: "/services/infrastructure#audit",
+  //   thumbnail: "/projects/infra-audit.jpg",
+  // },
 ];
 
 // Cloud Solutions Projects
@@ -161,77 +161,77 @@ export const cloudProjects = [
   {
     title: "Cloud Infrastructure Deployment",
     link: "/services/cloud#deployment",
-    thumbnail: "/projects/cloud-deployment.jpg",
+    thumbnail: "/cloud1.jpg",
   },
   {
     title: "Migration Services",
     link: "/services/cloud#migration",
-    thumbnail: "/projects/cloud-migration.jpg",
+    thumbnail: "/cloud2.jpg",
   },
   {
     title: "Backup & Disaster Recovery",
     link: "/services/cloud#backup",
-    thumbnail: "/projects/cloud-backup.jpg",
+    thumbnail: "/cloud3.jpg",
   },
   {
     title: "Security & Compliance",
     link: "/services/cloud#security",
-    thumbnail: "/projects/cloud-security.jpg",
+    thumbnail: "/cloud4.jpg",
   },
   {
     title: "AWS Solutions",
     link: "/services/cloud#aws",
-    thumbnail: "/projects/aws.jpg",
+    thumbnail: "/cloud5.jpg",
   },
   {
     title: "Azure Services",
     link: "/services/cloud#azure",
-    thumbnail: "/projects/azure.jpg",
+    thumbnail: "/cloud6.jpg",
   },
   {
     title: "Google Cloud Platform",
     link: "/services/cloud#gcp",
-    thumbnail: "/projects/gcp.jpg",
+    thumbnail: "/cloud7.jpg",
   },
   {
     title: "Hybrid Cloud Setup",
     link: "/services/cloud#hybrid",
-    thumbnail: "/projects/hybrid-cloud.jpg",
+    thumbnail: "/cloud8.jpg",
   },
   {
     title: "Multi-Cloud Management",
     link: "/services/cloud#multicloud",
-    thumbnail: "/projects/multicloud.jpg",
+    thumbnail: "/cloud4.jpg",
   },
   {
     title: "Cloud Monitoring",
     link: "/services/cloud#monitoring",
-    thumbnail: "/projects/cloud-monitoring.jpg",
+    thumbnail: "/cloud7.jpg",
   },
   {
     title: "Cloud Optimization",
     link: "/services/cloud#optimization",
-    thumbnail: "/projects/optimization.jpg",
+    thumbnail: "/cloud1.jpg",
   },
   {
     title: "DevOps Integration",
     link: "/services/cloud#devops",
-    thumbnail: "/projects/devops.jpg",
+    thumbnail: "/cloud4.jpg",
   },
   {
     title: "Container Services",
     link: "/services/cloud#containers",
-    thumbnail: "/projects/containers.jpg",
+    thumbnail: "/cloud2.jpg",
   },
   {
     title: "Serverless Architecture",
     link: "/services/cloud#serverless",
-    thumbnail: "/projects/serverless.jpg",
+    thumbnail: "/cloud5.jpg",
   },
   {
     title: "Cloud Cost Management",
     link: "/services/cloud#cost",
-    thumbnail: "/projects/cloud-cost.jpg",
+    thumbnail: "/cloud4.jpg",
   },
 ];
 
