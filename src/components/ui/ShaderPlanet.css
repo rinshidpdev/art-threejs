@@ -1,0 +1,13 @@
+/* ShaderPlanet.css */
+
+.shader-planet-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.shader-planet-container canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

@@ -40,8 +40,7 @@ const Navbar = () => {
             <a href="/" className="nav-item" onClick={() => setIsOpen(false)}>Home</a>
             <a href="/about" className="nav-item" onClick={() => setIsOpen(false)}>About</a>
             <a href="/services" className="nav-item" onClick={() => setIsOpen(false)}>Services</a>
-            <a href="/work" className="nav-item highlight" onClick={() => setIsOpen(false)}>Work</a>
-            <a href="/blog" className="nav-item" onClick={() => setIsOpen(false)}>Think</a>
+            
             <a href="/contact" className="nav-item" onClick={() => setIsOpen(false)}>Contact</a>
           </nav>
 

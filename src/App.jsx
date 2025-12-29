@@ -47,6 +47,7 @@ import BlogPage from "./components/Blogs/BlogPage";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import ServiceSec from "./pages/ServiceSec";
+import Contact from "./pages/Contact";
 
 
 
@@ -61,6 +62,7 @@ const App = () => {
        <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/service" element={<ServiceSec/>}/>
+      <Route path="/contact" element={<Contact/>}/>
      
 
 

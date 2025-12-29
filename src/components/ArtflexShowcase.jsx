@@ -183,7 +183,7 @@ const ArtflexShowcase = () => {
                   {/* Read More Button */}
                   <Link 
                     to={service.link}
-                    className="group inline-flex items-center gap-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 w-fit"
+                    className="group inline-flex items-center gap-3 px-6 py-3 bg-[#37B4BE] hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 w-fit"
                   >
                     Read More
                     <svg 

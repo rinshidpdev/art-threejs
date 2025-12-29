@@ -3,7 +3,7 @@ export const cyberSecurityProjects = [
   {
     title: "Endpoint Protection",
     link: "/services/cybersecurity#endpoint",
-    thumbnail: "/projects/endpoint-protection.jpg",
+    thumbnail: "/cyber1.jpg",
   },
   {
     title: "Firewall Solutions",

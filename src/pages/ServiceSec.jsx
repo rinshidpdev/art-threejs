@@ -7,6 +7,8 @@ import AboutTimeline from '../components/AboutTimeline'
 import VideoHero from '../components/VideoHero'
 import FAQ from '../components/FAQ'
 import HandVid from '../components/HandVid'
+import ContactHero from '../components/ContactHero'
+import ContactForm from '../components/ContactForm'
 const ServiceSec = () => {
   return (
     <>
@@ -17,6 +19,7 @@ const ServiceSec = () => {
     <VideoHero/>
     <FAQ/>
     <HandVid/>
+   
     </>
   )
 }
