@@ -35,7 +35,7 @@
 // export default App
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import About from "./pages/About";
+import About from "./pages/ServicesSec";
 import CyberSecurityPage from "./components/services/CyberSecurity";
 import AMCPage from "./components/services/Amc";
 import Cloud from "./components/services/Cloud";
@@ -46,8 +46,9 @@ import BlogDetailPage from "./components/Blogs/BlogDetailPage";
 import BlogPage from "./components/Blogs/BlogPage";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
-import ServiceSec from "./pages/ServiceSec";
+import ServiceSec from "./pages/About";
 import Contact from "./pages/Contact";
+import FooterWithStyles from "./components/Footer";
 
 
 
@@ -60,8 +61,8 @@ const App = () => {
     <Routes>
     
        <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/service" element={<ServiceSec/>}/>
+      <Route path="/services" element={<About/>}/>
+      <Route path="/about" element={<ServiceSec/>}/>
       <Route path="/contact" element={<Contact/>}/>
      
 
@@ -77,6 +78,7 @@ const App = () => {
 
      
     </Routes>
+    <FooterWithStyles/>
     </>
   );
 };

@@ -182,6 +182,8 @@ import { ContainerScroll } from "../../components/ui/container-scroll-animation"
 import { PinContainer } from "../../components/ui/3d-pin";
 import { cyberSecurityProjects } from "../../data/serviceProjects";
 import im from '../../assets/trust1.png'
+import GeminiEffectDemo from "../ui/GeminiEffectDemo";
+import Testimonials from "../Testimonials/Testimonials";
 
 const CybersecurityPage = () => {
   const services = [
@@ -267,7 +269,7 @@ const CybersecurityPage = () => {
           }
         >
           <img
-            src="/images/cybersecurity-dashboard.jpg"
+            src="/cyber2.jpg"
             alt="Cybersecurity Dashboard"
             height={720}
             width={1400}
@@ -351,6 +353,8 @@ const CybersecurityPage = () => {
           </div>
         </div>
       </section>
+      <GeminiEffectDemo/>
+      <Testimonials/>
     </div>
   );
 };

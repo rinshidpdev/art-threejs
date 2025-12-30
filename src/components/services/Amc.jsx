@@ -177,6 +177,7 @@ import { ContainerScroll } from "../../components/ui/container-scroll-animation"
 import { PinContainer } from "../../components/ui/3d-pin";
 import { amcProjects } from "../../data/serviceProjects";
 import Testimonials from "../Testimonials/Testimonials";
+import GeminieffectDemo from '../ui/GeminiEffectDemo'
 import amc from '../../assets/amc.png'
 
 const AMCPage = () => {
@@ -276,7 +277,7 @@ const AMCPage = () => {
           }
         >
           <img
-            src={amc}
+            src='/amch.png'
             alt="AMC Support Services"
             height={720}
             width={1400}
@@ -362,6 +363,7 @@ const AMCPage = () => {
             ))}
           </div>
         </div>
+        <GeminieffectDemo />
         <Testimonials/>
       </section>
     </div>

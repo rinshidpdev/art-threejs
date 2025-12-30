@@ -38,19 +38,19 @@ const OrbitingLogos = () => {
           {/* Inner Orbit - slower rotation */}
           <div className="absolute w-[400px] h-[400px] border border-gray-800/50 rounded-full animate-orbit-reverse">
             <Logo
-              imagePath="/logos/figma.png" // replace with your image path
+              imagePath="/py.png" // replace with your image path
               style={{ top: "0%", left: "50%", transform: "translate(-50%, -50%)" }}
             />
             <Logo
-              imagePath="/logos/notion.png"
+              imagePath="/js.png"
               style={{ top: "50%", left: "0%", transform: "translate(-50%, -50%)" }}
             />
             <Logo
-              imagePath="/logos/discord.png"
+              imagePath="/html.png"
               style={{ top: "100%", left: "50%", transform: "translate(-50%, -50%)" }}
             />
             <Logo
-              imagePath="/logos/slack.png"
+              imagePath="/css.png"
               style={{ top: "50%", left: "100%", transform: "translate(-50%, -50%)" }}
             />
           </div>
@@ -58,7 +58,7 @@ const OrbitingLogos = () => {
           {/* Outer Orbit - slower rotation */}
           <div className="absolute w-[650px] h-[650px] border border-gray-800/50 rounded-full animate-orbit">
             <Logo
-              imagePath="/logos/zoom.png"
+              imagePath="/c1.png"
               style={{ 
                 top: "50%", 
                 left: "50%", 
@@ -66,7 +66,7 @@ const OrbitingLogos = () => {
               }}
             />
             <Logo
-              imagePath="/logos/asana.png"
+              imagePath="/c2.png"
               style={{ 
                 top: "50%", 
                 left: "50%", 
@@ -74,7 +74,7 @@ const OrbitingLogos = () => {
               }}
             />
             <Logo
-              imagePath="/logos/figma2.png"
+              imagePath="/php.png"
               style={{ 
                 top: "50%", 
                 left: "50%", 
@@ -82,7 +82,7 @@ const OrbitingLogos = () => {
               }}
             />
             <Logo
-              imagePath="/logos/intercom.png"
+              imagePath="/java.png"
               style={{ 
                 top: "50%", 
                 left: "50%", 
@@ -90,7 +90,7 @@ const OrbitingLogos = () => {
               }}
             />
             <Logo
-              imagePath="/logos/github.png"
+              imagePath="/node.png"
               style={{ 
                 top: "50%", 
                 left: "50%", 
@@ -98,7 +98,7 @@ const OrbitingLogos = () => {
               }}
             />
             <Logo
-              imagePath="/logos/slack2.png"
+              imagePath="/ts.png"
               style={{ 
                 top: "50%", 
                 left: "50%", 
@@ -106,7 +106,7 @@ const OrbitingLogos = () => {
               }}
             />
             <Logo
-              imagePath="/logos/miro.png"
+              imagePath="/react.png"
               style={{ 
                 top: "50%", 
                 left: "50%", 
@@ -114,7 +114,7 @@ const OrbitingLogos = () => {
               }}
             />
             <Logo
-              imagePath="/logos/jira.png"
+              imagePath="/php.png"
               style={{ 
                 top: "50%", 
                 left: "50%", 

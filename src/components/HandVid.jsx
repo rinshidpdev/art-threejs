@@ -31,7 +31,7 @@ export default function Handnvid() {
             Start for free
           </button>
           <button className="px-8 py-3 bg-blue-600 text-white rounded-full font-semibold">
-            Start with AI
+            {/* Start with AI */} Contact Us
           </button>
         </div>
       </div>

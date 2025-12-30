@@ -392,7 +392,7 @@
   font-size: 2.5rem; /* Reduced from 3rem */
   font-weight: bold;
   margin-bottom: 20px;
-  color: #37B4BE; /* Artiflex Cyan */
+  color: #2563eb; /* Artiflex Cyan */
 }
 
 /* Scoped description text - REDUCED SIZE */
@@ -416,12 +416,12 @@
 .launch-features span {
   position: relative;
   padding: 0 35px;
-  color: #37B4BE; /* Artiflex Cyan */
+  color: #2563eb /* Artiflex Cyan */
 }
 
 .launch-features span::after {
   content: "|";
-  color: #37B4BE; /* Changed from #d4ff00 to cyan */
+  color: #2563eb; /* Changed from #d4ff00 to cyan */
   position: absolute;
   left: 0;
 }
@@ -433,8 +433,8 @@
 /* Button */
 .read-more {
   background: transparent;
-  color: #37B4BE;
-  border: 2px solid #37B4BE;
+  color:#2563eb;
+  border: 2px solid #2563eb;
   padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
@@ -442,7 +442,7 @@
 }
 
 .read-more:hover {
-  background: #37B4BE;
+  background: #2563eb;
   color: black;
 }
 
@@ -500,7 +500,7 @@
   font-size: 3rem; /* Reduced from 60px */
   font-weight: bold;
   margin-bottom: 15px;
-  color: #37B4BE; /* Artiflex Cyan */
+  color: #2563eb; /* Artiflex Cyan */
 }
 
 /* REDUCED PARAGRAPH SIZE */
@@ -523,12 +523,12 @@
   font-size: 1rem; /* Reduced from 20px */
   padding-left: 10px;
   font-weight: 600;
-  color: #37B4BE; /* Artiflex Cyan */
+  color: #2563eb; /* Artiflex Cyan */
 }
 
 .branding-categories span::before {
   content: "|";
-  color: #37B4BE; /* Changed from yellow to cyan */
+  color: #2563eb; /* Changed from yellow to cyan */
   position: absolute;
   left: -10px;
 }
@@ -546,8 +546,8 @@
 
 .btn {
   background: transparent;
-  color: #37B4BE;
-  border: 2px solid #37B4BE;
+  color: #2563eb;
+  border: 2px solid #2563eb;
   padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -555,7 +555,7 @@
 }
 
 .btn:hover {
-  background-color: #37B4BE;
+  background-color: #2563eb;
   color: black;
 }
 

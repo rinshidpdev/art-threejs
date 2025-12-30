@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Link } from 'react-router-dom';
-
+import Infrastructure from '../assets/I.jpg'
 gsap.registerPlugin(ScrollTrigger);
 
 const ArtflexShowcase = () => {
@@ -85,7 +85,7 @@ const ArtflexShowcase = () => {
       title: "Cyber Security",
       subtitle: "Enterprise-Grade Protection",
       description: "AI-powered threat detection reduced security incidents by 85% and tripled response speed for a global enterprise. See how automation improved customer experience.",
-      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=800&fit=crop",
+      image: "/CY.jpg",
       tags: ["Security", "Enterprise"],
       link: "/services/cybersecurity"
     },
@@ -95,7 +95,7 @@ const ArtflexShowcase = () => {
       title: "Infrastructure Solutions",
       subtitle: "Building Modern IT Backbone",
       description: "Infrastructure deployment reduced downtime by 70% and increased network performance by 3x for a leading corporation. Discover enterprise-grade solutions.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=800&fit=crop",
+      image: Infrastructure,
       tags: ["Infrastructure", "Cloud"],
       link: "/services/infrastructure"
     },
@@ -105,7 +105,7 @@ const ArtflexShowcase = () => {
       title: "Cloud Solutions",
       subtitle: "Scalable Cloud Infrastructure",
       description: "Cloud migration improved scalability by 300% and cut operational costs by 45% for multinational businesses. Transform operations with cloud expertise.",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop",
+      image: "/cloud2.jpg",
       tags: ["Cloud", "Migration"],
       link: "/services/cloud"
     },
@@ -115,7 +115,7 @@ const ArtflexShowcase = () => {
       title: "AMC Support",
       subtitle: "Always-On IT Support",
       description: "Proactive maintenance increased system uptime to 99.9% and reduced emergency calls by 60% for enterprise clients. Experience comprehensive AMC services.",
-      image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=1200&h=800&fit=crop",
+      image: "/amc5.jpg",
       tags: ["Support", "Maintenance"],
       link: "/services/amc"
     }
@@ -127,7 +127,7 @@ const ArtflexShowcase = () => {
       <section className="py-20 bg-black">
         {/* Header with Gradient Title */}
         <div className="text-center mb-16 px-4">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight bg-gradient-to-r from-blue-400 via-purple-400 via-pink-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight bg-[#2563eb] bg-clip-text text-transparent">
             Our Services
           </h1>
           <p className="text-gray-400 text-lg md:text-xl mt-6 max-w-3xl mx-auto">
@@ -183,7 +183,7 @@ const ArtflexShowcase = () => {
                   {/* Read More Button */}
                   <Link 
                     to={service.link}
-                    className="group inline-flex items-center gap-3 px-6 py-3 bg-[#37B4BE] hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 w-fit"
+                    className="group inline-flex items-center gap-3 px-6 py-3 bg-blue-700 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 w-fit"
                   >
                     Read More
                     <svg 

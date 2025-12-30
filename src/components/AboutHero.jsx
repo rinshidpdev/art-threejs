@@ -125,7 +125,7 @@ const AboutHero = () => {
           <div className="relative rounded-[32px] overflow-hidden bg-white/5 border border-[#37B4BE]/20">
             <div className="absolute inset-0 rounded-[32px] bg-[radial-gradient(circle_at_top,_rgba(55,180,190,0.25),_transparent_60%)] pointer-events-none" />
             <img
-              src="/images/about/hero-team.jpg"
+              src="/about1.jpg"
               alt="Artiflex team at work"
               className="w-full h-[260px] md:h-[320px] object-cover rounded-[32px]"
             />
@@ -158,7 +158,7 @@ const AboutHero = () => {
               <div className="relative rounded-[28px] overflow-hidden bg-white/5 border border-[#37B4BE]/20">
                 <div className="absolute inset-0 rounded-[28px] bg-[radial-gradient(circle_at_top,_rgba(55,180,190,0.25),_transparent_60%)] pointer-events-none" />
                 <img
-                  src="/images/about/team-small-1.jpg"
+                  src="/about2.jpg"
                   alt="Artiflex team"
                   className="w-[260px] h-[180px] md:w-[320px] md:h-[210px] object-cover rounded-[28px]"
                 />
@@ -168,7 +168,7 @@ const AboutHero = () => {
               <div className="relative rounded-[28px] overflow-hidden bg-white/5 border border-[#37B4BE]/20">
                 <div className="absolute inset-0 rounded-[28px] bg-[radial-gradient(circle_at_top,_rgba(55,180,190,0.25),_transparent_60%)] pointer-events-none" />
                 <img
-                  src="/images/about/team-small-2.jpg"
+                  src="/about4.jpg"
                   alt="Artiflex engineers"
                   className="w-[260px] h-[180px] md:w-[320px] md:h-[210px] object-cover rounded-[28px]"
                 />
@@ -206,7 +206,7 @@ const AboutHero = () => {
             <div className="relative rounded-[28px] overflow-hidden bg-white/5 border border-[#37B4BE]/20">
               <div className="absolute inset-0 rounded-[28px] bg-[radial-gradient(circle_at_top,_rgba(55,180,190,0.25),_transparent_60%)] pointer-events-none" />
               <img
-                src="/images/about/team-bottom.jpg"
+                src="/about3.jpg"
                 alt="Artiflex team group photo"
                 className="w-[260px] h-[190px] md:w-[360px] md:h-[230px] object-cover rounded-[28px]"
               />

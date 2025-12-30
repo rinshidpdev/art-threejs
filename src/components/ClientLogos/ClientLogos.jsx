@@ -2,11 +2,14 @@ import React from "react";
 import "./ClientLogos.css";
 
 const logos = [
-  { id: 1, src: "/logos/logo1.svg", alt: "Client 1" },
-  { id: 2, src: "/logos/logo2.svg", alt: "Client 2" },
-  { id: 3, src: "/logos/logo3.svg", alt: "Client 3" },
-  { id: 4, src: "/logos/logo4.svg", alt: "Client 4" },
-  { id: 5, src: "/logos/logo5.svg", alt: "Client 5" },
+  { id: 1, src: "/cli1.png", alt: "Client 1" },
+  { id: 2, src: "/cli2.png", alt: "Client 2" },
+  { id: 3, src: "/cli3.png", alt: "Client 3" },
+  { id: 4, src: "/cli4.png", alt: "Client 4" },
+  { id: 5, src: "/cli5.png", alt: "Client 5" },
+  { id: 6, src: "/cli6.png", alt: "Client 6" },
+  { id: 7, src: "/cli7.png", alt: "Client 7" },
+  { id: 8, src: "/cli8.png", alt: "Client 8" },
 ];
 
 const ClientLogos = () => {

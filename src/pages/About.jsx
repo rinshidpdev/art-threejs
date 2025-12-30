@@ -1,38 +1,29 @@
 import React from 'react'
-import AboutHero from '../components/AboutHero'
-import FAQ from '../components/FAQ'
-import UniBackground from '../components/UniBackground'
 import ServicesHero from '../components/ServicesHero'
 import LaunchBrand from '../components/LaunchBrand/LaunchBrand'
-import ArtflexShowcase from '../components/ArtflexShowcase'
-import Features from '../components/Features'
-import VideoPinSection from '../components/VideoPinSection'
-
-import GeminiEffectDemo from '../components/ui/GeminiEffectDemo'
-import OrbitingLogos from '../components/OrbitingLogos'
-import Testimonials from '../components/Testimonials/Testimonials'
-
-import BlogPage from '../components/Blogs/BlogPage'
-
-
-const About = () => {
+import ScrollSection from '../components/ScrollSection/ScrollSection'
+import AboutHero from '../components/AboutHero'
+import AboutTimeline from '../components/AboutTimeline'
+import VideoHero from '../components/VideoHero'
+import FAQ from '../components/FAQ'
+import HandVid from '../components/HandVid'
+import ContactHero from '../components/ContactHero'
+import ContactForm from '../components/ContactForm'
+const ServiceSec = () => {
   return (
     <>
+    <ScrollSection/>
+
     
-    <ServicesHero/>
-    <LaunchBrand/>
-    <ArtflexShowcase/>
-    <Features/>
-    <VideoPinSection/>
- 
-   <OrbitingLogos/>
-     <GeminiEffectDemo/>
-     <BlogPage/>
-   <Testimonials/>
-  
+    <AboutHero/>
+    <VideoHero/>
+    <FAQ/>
+    <HandVid/>
+   
+
    
     </>
   )
 }
 
-export default About
+export default ServiceSec

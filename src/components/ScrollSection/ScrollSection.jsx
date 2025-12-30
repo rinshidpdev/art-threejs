@@ -206,7 +206,7 @@ export default function ParallaxScroll() {
           <div id="kids" style={{
             width: '100%',
             height: '100%',
-            backgroundImage: 'url("https://raw.githubusercontent.com/RicardoYare/imagenes/refs/heads/main/Sin%20nombre.png")',
+            backgroundImage: 'url("/abou.png")',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',

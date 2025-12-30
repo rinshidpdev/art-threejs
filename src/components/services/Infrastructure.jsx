@@ -168,6 +168,8 @@ import { HeroParallax } from "../../components/ui/HeroParallax";
 import { ContainerScroll } from "../../components/ui/container-scroll-animation";
 import { PinContainer } from "../../components/ui/3d-pin";
 import { infrastructureProjects } from "../../data/serviceProjects";
+import GeminiEffectDemo from "../ui/GeminiEffectDemo";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Infrastructure = () => {
   const services = [
@@ -258,7 +260,7 @@ const Infrastructure = () => {
           }
         >
           <img
-            src="/images/infrastructure-setup.jpg"
+            src="/inf2.jpg"
             alt="Infrastructure Setup"
             height={720}
             width={1400}
@@ -345,6 +347,8 @@ const Infrastructure = () => {
             ))}
           </div>
         </div>
+        <GeminiEffectDemo/>
+        <Testimonials/>
       </section>
     </div>
   );

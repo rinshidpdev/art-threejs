@@ -55,7 +55,7 @@ const AboutTimeline = () => {
               Our team blends deep expertise across infrastructure, cloud,
               cybersecurity, and managed services—working together to design
               resilient IT foundations that keep businesses online, secure, and
-              ready for growth. [file:157]
+              ready for growth. 
             </p>
           </div>
 
@@ -101,13 +101,13 @@ const AboutTimeline = () => {
                 <span className="font-semibold">Vision.</span> To be the most
                 trusted technology partner empowering organizations to thrive
                 securely in the digital era through innovative, resilient, and
-                sustainable IT. [file:157]
+                sustainable IT. 
               </p>
               <p>
                 <span className="font-semibold">Mission.</span> To deliver
                 intelligent, end‑to‑end IT solutions that protect, optimize, and
                 modernize infrastructure—so businesses can focus on growth while
-                we handle uptime, security, and performance. [file:157]
+                we handle uptime, security, and performance. 
               </p>
             </div>
           </div>

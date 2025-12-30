@@ -119,7 +119,7 @@ const ServicesHero = () => {
       <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center px-6 py-20 lg:px-12">
         <div className="max-w-2xl">
           {/* Small Label */}
-          <p className="mb-4 text-sm font-bold uppercase tracking-widest text-[#37B4BE]">
+          <p className="mb-4 text-sm font-bold uppercase tracking-widest text-[#2563eb]">
             COMPLETE IT SOLUTIONS
           </p>
 
@@ -127,7 +127,7 @@ const ServicesHero = () => {
           <h1 className="text-6xl font-black leading-tight text-white md:text-7xl lg:text-8xl">
             Our{" "}
             <span className="relative inline-block">
-              <span className="relative z-10 text-[#37B4BE]">Services</span>
+              <span className="relative z-10 text-[#2563eb]">Services</span>
               <span className="absolute bottom-2 left-0 h-3 w-full bg-[#37B4BE]/30 blur-sm"></span>
             </span>
           </h1>
@@ -135,14 +135,14 @@ const ServicesHero = () => {
           {/* Subtitle */}
           <p className="mt-6 text-lg leading-relaxed text-slate-300 md:text-xl">
             Complete IT solutions for{" "}
-            <span className="font-semibold text-[#37B4BE]">cybersecurity</span>,{" "}
-            <span className="font-semibold text-[#37B4BE]">infrastructure</span>,{" "}
-            <span className="font-semibold text-[#37B4BE]">cloud</span>, and{" "}
-            <span className="font-semibold text-[#37B4BE]">managed services</span>.
+            <span className="font-semibold text-[#2563eb]">cybersecurity</span>,{" "}
+            <span className="font-semibold text-[#2563eb]">infrastructure</span>,{" "}
+            <span className="font-semibold text-[#2563eb]">cloud</span>, and{" "}
+            <span className="font-semibold text-[#2563eb]">managed services</span>.
           </p>
 
           {/* CTA Button with cyan accent */}
-          <button className="group mt-10 flex items-center gap-3 rounded-full bg-[#37B4BE] px-8 py-4 text-base font-bold text-black shadow-[0_0_40px_rgba(55,180,190,0.4)] transition-all duration-300 hover:scale-105 hover:bg-[#2da3b3] hover:shadow-[0_0_60px_rgba(55,180,190,0.6)]">
+          <button className="group mt-10 flex items-center gap-3 rounded-full bg-[#2563eb] px-8 py-4 text-base font-bold text-black shadow-[0_0_40px_rgba(55,180,190,0.4)] transition-all duration-300 hover:scale-105 hover:bg-[#2da3b3] hover:shadow-[0_0_60px_rgba(55,180,190,0.6)]">
             <span>SEE IN ACTION</span>
             <svg
               className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
@@ -161,13 +161,13 @@ const ServicesHero = () => {
 
           {/* Feature badges */}
           <div className="mt-12 flex flex-wrap gap-3">
-            <span className="rounded-full border border-[#37B4BE]/30 bg-[#37B4BE]/10 px-4 py-2 text-sm font-semibold text-[#37B4BE]">
+            <span className="rounded-full border border-[#37B4BE]/30 bg-[#37B4BE]/10 px-4 py-2 text-sm font-semibold text-[#2563eb]">
               14+ Years Experience
             </span>
-            <span className="rounded-full border border-[#37B4BE]/30 bg-[#37B4BE]/10 px-4 py-2 text-sm font-semibold text-[#37B4BE]">
+            <span className="rounded-full border border-[#37B4BE]/30 bg-[#37B4BE]/10 px-4 py-2 text-sm font-semibold text-[#2563eb]">
               Global Reach
             </span>
-            <span className="rounded-full border border-[#37B4BE]/30 bg-[#37B4BE]/10 px-4 py-2 text-sm font-semibold text-[#37B4BE]">
+            <span className="rounded-full border border-[#37B4BE]/30 bg-[#37B4BE]/10 px-4 py-2 text-sm font-semibold text-[#2563eb]">
               24/7 Support
             </span>
           </div>

@@ -129,31 +129,31 @@ export const infrastructureProjects = [
     link: "/services/infrastructure#racks",
     thumbnail: "/inf10.jpg",
   },
-  // {
-  //   title: "Power Systems",
-  //   link: "/services/infrastructure#power",
-  //   thumbnail: "/projects/power-systems.jpg",
-  // },
-  // {
-  //   title: "Data Center Setup",
-  //   link: "/services/infrastructure#datacenter",
-  //   thumbnail: "/projects/datacenter.jpg",
-  // },
-  // {
-  //   title: "Network Design",
-  //   link: "/services/infrastructure#network",
-  //   thumbnail: "/projects/network-design.jpg",
-  // },
-  // {
-  //   title: "Hardware Supply",
-  //   link: "/services/infrastructure#hardware",
-  //   thumbnail: "/projects/hardware.jpg",
-  // },
-  // {
-  //   title: "Infrastructure Audit",
-  //   link: "/services/infrastructure#audit",
-  //   thumbnail: "/projects/infra-audit.jpg",
-  // },
+  {
+    title: "Power Systems",
+    link: "/services/infrastructure#power",
+    thumbnail: "/inf3.jpg",
+  },
+  {
+    title: "Data Center Setup",
+    link: "/services/infrastructure#datacenter",
+    thumbnail: "/inf5.jpg",
+  },
+  {
+    title: "Network Design",
+    link: "/services/infrastructure#network",
+    thumbnail: "/inf4.jpg",
+  },
+  {
+    title: "Hardware Supply",
+    link: "/services/infrastructure#hardware",
+    thumbnail: "/inf6.jpg",
+  },
+  {
+    title: "Infrastructure Audit",
+    link: "/services/infrastructure#audit",
+    thumbnail: "/inf10.jpg",
+  },
 ];
 
 // Cloud Solutions Projects
@@ -240,76 +240,76 @@ export const amcProjects = [
   {
     title: "Preventive Maintenance",
     link: "/services/amc#preventive",
-    thumbnail: "/projects/preventive.jpg",
+    thumbnail: "/amc4.jpg",
   },
   {
     title: "Hardware Support",
     link: "/services/amc#hardware",
-    thumbnail: "/projects/hardware-support.jpg",
+    thumbnail: "/amc8.jpg",
   },
   {
     title: "Network Support",
     link: "/services/amc#network",
-    thumbnail: "/projects/network-support.jpg",
+    thumbnail: "/amc3.jpg",
   },
   {
     title: "Software Maintenance",
     link: "/services/amc#software",
-    thumbnail: "/projects/software-maintenance.jpg",
+    thumbnail: "/amc4.jpg",
   },
   {
     title: "Security Maintenance",
     link: "/services/amc#security",
-    thumbnail: "/projects/security-maintenance.jpg",
+    thumbnail: "/amc5.jpg",
   },
   {
     title: "Cloud Infrastructure Support",
     link: "/services/amc#cloud",
-    thumbnail: "/projects/cloud-support.jpg",
+    thumbnail: "/amc6.jpg",
   },
   {
     title: "On-Site Support",
     link: "/services/amc#onsite",
-    thumbnail: "/projects/onsite.jpg",
+    thumbnail: "/amc7.jpg",
   },
   {
     title: "Emergency Support",
     link: "/services/amc#emergency",
-    thumbnail: "/projects/emergency.jpg",
+    thumbnail: "/amc8.jpg",
   },
   {
     title: "24/7 Monitoring",
     link: "/services/amc#monitoring",
-    thumbnail: "/projects/247-monitoring.jpg",
+    thumbnail: "/amc6.jpg",
   },
   {
     title: "Server Maintenance",
     link: "/services/amc#server",
-    thumbnail: "/projects/server-maintenance.jpg",
+    thumbnail: "/amc10.jpg",
   },
   {
     title: "System Updates",
     link: "/services/amc#updates",
-    thumbnail: "/projects/updates.jpg",
+    thumbnail: "/amc7.jpg",
   },
   {
     title: "Performance Tuning",
     link: "/services/amc#tuning",
-    thumbnail: "/projects/tuning.jpg",
+    thumbnail: "/amc4.jpg",
   },
   {
     title: "Remote Support",
     link: "/services/amc#remote",
-    thumbnail: "/projects/remote-support.jpg",
+    thumbnail: "/amc4.jpg",
   },
   {
     title: "Patch Management",
     link: "/services/amc#patches",
-    thumbnail: "/projects/patches.jpg",
+    thumbnail: "/amc5.jpg",
   },
   {
     title: "SLA Management",
     link: "/services/amc#sla",
-    thumbnail: "/projects/sla.jpg",
+    thumbnail: "/amc6.jpg",
   },
 ];

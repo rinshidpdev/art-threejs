@@ -123,7 +123,7 @@ const Showcase = () => {
       <div className="media">
         <video src="/videos/homeFeature.mp4" loop muted autoPlay playsInline />
         <div className="mask">
-          <img src="/mask-logo.png" />
+          <img src="/mask.png" />
         </div>
       </div>
 

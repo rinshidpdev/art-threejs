@@ -48,15 +48,15 @@ const Navbar = () => {
           <div className="mobile-footer">
             <div className="footer-section">
               <h3 className="footer-heading">Meet Us</h3>
-              <p className="footer-text">Latifa Towers</p>
-              <p className="footer-text">34th Floor, Office 3401</p>
-              <p className="footer-text">Sheikh Zayed Road, Dubai</p>
+             
+              <p className="footer-text">Office No. 1-264,</p>
+              <p className="footer-text">Al Quoz, Dubai, UAE</p>
             </div>
             <div className="footer-section">
               <h3 className="footer-heading">Contact Us</h3>
-              <p className="footer-text">hello@moonbox.ae</p>
-              <p className="footer-text">04 2696733</p>
-              <p className="footer-text">052 421 9856</p>
+              <p className="footer-text">sales@artiflexit.com</p>
+              <p className="footer-text">+971 55 808 6462</p>
+              <p className="footer-text">+971 55 808 6462</p>
             </div>
             <div className="footer-section">
               <h3 className="footer-heading">Reach Us</h3>

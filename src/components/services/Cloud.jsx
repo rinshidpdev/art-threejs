@@ -174,6 +174,8 @@ import { HeroParallax } from "../../components/ui/HeroParallax";
 import { ContainerScroll } from "../../components/ui/container-scroll-animation";
 import { PinContainer } from "../../components/ui/3d-pin";
 import { cloudProjects } from "../../data/serviceProjects";
+import GeminiEffectDemo from "../ui/GeminiEffectDemo";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Cloud = () => {
   const services = [
@@ -359,6 +361,8 @@ const Cloud = () => {
             ))}
           </div>
         </div>
+        <GeminiEffectDemo/>
+        <Testimonials/>
       </section>
     </div>
   );
