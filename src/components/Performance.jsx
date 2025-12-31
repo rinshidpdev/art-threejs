@@ -478,7 +478,7 @@ const Performance = () => {
       className="relative py-20 lg:py-28"
     >
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-center mb-12 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-        Advanced Threat Intelligence Engine
+        Artiflex IT Threat Intelligence Platform
       </h2>
 
       <div className="wrapper relative">
