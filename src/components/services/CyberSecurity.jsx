@@ -184,6 +184,7 @@ import { cyberSecurityProjects } from "../../data/serviceProjects";
 import im from '../../assets/trust1.png'
 import GeminiEffectDemo from "../ui/GeminiEffectDemo";
 import Testimonials from "../Testimonials/Testimonials";
+import ClientLogos from "../ClientLogos/ClientLogos";
 
 const CybersecurityPage = () => {
   const services = [
@@ -354,6 +355,7 @@ const CybersecurityPage = () => {
         </div>
       </section>
       <GeminiEffectDemo/>
+      <ClientLogos/>
       <Testimonials/>
     </div>
   );

@@ -170,6 +170,7 @@ import { PinContainer } from "../../components/ui/3d-pin";
 import { infrastructureProjects } from "../../data/serviceProjects";
 import GeminiEffectDemo from "../ui/GeminiEffectDemo";
 import Testimonials from "../Testimonials/Testimonials";
+import ClientLogos from "../ClientLogos/ClientLogos";
 
 const Infrastructure = () => {
   const services = [
@@ -348,6 +349,7 @@ const Infrastructure = () => {
           </div>
         </div>
         <GeminiEffectDemo/>
+        <ClientLogos/>
         <Testimonials/>
       </section>
     </div>

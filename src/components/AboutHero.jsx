@@ -56,7 +56,7 @@ const AboutHero = () => {
       {/* ====== HERO PART ====== */}
       <div className="max-w-7xl mx-auto px-6 text-center">
         {/* Small Cyan Label */}
-        <p className="text-[#37B4BE] text-sm font-bold uppercase tracking-widest mb-8">
+        <p className="text-[#2563eb] text-sm font-bold uppercase tracking-widest mb-8">
           OUR MISSION
         </p>
 
@@ -65,7 +65,7 @@ const AboutHero = () => {
           Transforming the world of <br />
           <span className="relative inline-block">
             <span className="relative z-10 px-4">IT security</span>
-            <span className="absolute inset-0 bg-[#37B4BE] rounded-3xl transform -skew-x-3" />
+            <span className="absolute inset-0 bg-[#2563eb] rounded-3xl transform -skew-x-3" />
           </span>{" "}
           for good
         </h1>
@@ -74,7 +74,7 @@ const AboutHero = () => {
         <div className="max-w-4xl mx-auto space-y-4 text-lg md:text-xl mb-16">
           <p className="text-white">
             We empower the backbone of digital transformation:{" "}
-            <span className="font-bold text-[#37B4BE]">businesses worldwide.</span>{" "}
+            <span className="font-bold text-[#2563eb]">businesses worldwide.</span>{" "}
             <span className="text-gray-400">
               Operating across multiple countries, we believe every organization
               deserves enterprise-grade security.
@@ -98,7 +98,7 @@ const AboutHero = () => {
         <div className="grid gap-10 md:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] mb-16 text-left">
           <div>
             {/* cyan label */}
-            <p className="text-[#37B4BE] text-sm font-bold uppercase tracking-widest mb-4">
+            <p className="text-[#2563eb] text-sm font-bold uppercase tracking-widest mb-4">
               WHO WE ARE
             </p>
             <h2 className="text-4xl md:text-5xl font-black leading-tight">
@@ -113,7 +113,7 @@ const AboutHero = () => {
               running — always on, always protected.
             </p>
             <p className="text-base md:text-lg text-gray-400 leading-relaxed">
-              With over <span className="text-[#37B4BE] font-semibold">14 years of experience</span> under the Manchi Group, Artiflex
+              With over <span className="text-[#2563eb] font-semibold">14 years of experience</span> under the Manchi Group, Artiflex
               delivers integrated infrastructure, cloud, cybersecurity, and
               managed services tailored to the way modern organizations work.
             </p>
@@ -139,11 +139,11 @@ const AboutHero = () => {
 
           {/* block 1 */}
           <div className="text-center max-w-2xl mx-auto mb-20">
-            <p className="text-[#37B4BE] text-sm font-bold uppercase tracking-widest mb-4">
+            <p className="text-[#2563eb] text-sm font-bold uppercase tracking-widest mb-4">
               A FOUNDATION OF EXPERTISE
             </p>
             <p className="text-lg md:text-xl text-white font-semibold">
-              A cross‑functional team aligned around <span className="text-[#37B4BE]">uptime and security.</span>
+              A cross‑functional team aligned around <span className="text-[#2563eb]">uptime and security.</span>
             </p>
             <p className="text-base md:text-lg text-gray-400 leading-relaxed mt-3">
               Our architects, engineers, and security specialists work together
@@ -181,20 +181,20 @@ const AboutHero = () => {
 
           {/* mission + vision block */}
           <div className="text-center max-w-3xl mx-auto mb-20">
-            <p className="text-[#37B4BE] text-sm font-bold uppercase tracking-widest mb-4">
+            <p className="text-[#2563eb] text-sm font-bold uppercase tracking-widest mb-4">
               MISSION &amp; VISION
             </p>
             <p className="text-lg md:text-xl text-white font-semibold">
               A clear direction that keeps every solution focused on <span className="text-[#37B4BE]">security and growth.</span>
             </p>
             <p className="text-base md:text-lg text-gray-400 leading-relaxed mt-4">
-              <span className="font-bold text-[#37B4BE]">Vision.</span> To be the
+              <span className="font-bold text-[#2563eb]">Vision.</span> To be the
               most trusted technology partner empowering organizations to thrive
               securely in the digital era through innovative, resilient, and
               sustainable IT.
             </p>
             <p className="text-base md:text-lg text-gray-400 leading-relaxed mt-3">
-              <span className="font-bold text-[#37B4BE]">Mission.</span> To deliver
+              <span className="font-bold text-[#2563eb]">Mission.</span> To deliver
               end‑to‑end IT solutions across cybersecurity, infrastructure,
               cloud, and managed services—so our clients can scale confidently
               while we protect uptime, performance, and data.

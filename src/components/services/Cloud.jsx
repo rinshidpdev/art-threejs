@@ -176,6 +176,7 @@ import { PinContainer } from "../../components/ui/3d-pin";
 import { cloudProjects } from "../../data/serviceProjects";
 import GeminiEffectDemo from "../ui/GeminiEffectDemo";
 import Testimonials from "../Testimonials/Testimonials";
+import ClientLogos from "../ClientLogos/ClientLogos";
 
 const Cloud = () => {
   const services = [
@@ -362,6 +363,7 @@ const Cloud = () => {
           </div>
         </div>
         <GeminiEffectDemo/>
+        <ClientLogos/>
         <Testimonials/>
       </section>
     </div>

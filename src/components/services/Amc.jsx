@@ -179,6 +179,7 @@ import { amcProjects } from "../../data/serviceProjects";
 import Testimonials from "../Testimonials/Testimonials";
 import GeminieffectDemo from '../ui/GeminiEffectDemo'
 import amc from '../../assets/amc.png'
+import ClientLogos from "../ClientLogos/ClientLogos";
 
 const AMCPage = () => {
   const services = [
@@ -364,6 +365,7 @@ const AMCPage = () => {
           </div>
         </div>
         <GeminieffectDemo />
+        <ClientLogos/>
         <Testimonials/>
       </section>
     </div>
