@@ -13,6 +13,7 @@
     "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.4.2",
+    "@tailwindcss/vite": "^4.1.18",
     "aos": "^2.3.4",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.26",
@@ -26,6 +27,7 @@
     "react-responsive": "^10.0.1",
     "react-router-dom": "^7.11.0",
     "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.18",
     "three": "^0.182.0",
     "unicornstudio-react": "^1.5.2"
   },
