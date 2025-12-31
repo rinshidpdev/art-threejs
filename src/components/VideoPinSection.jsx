@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useMediaQuery } from "react-responsive";
 
 // Import your assets correctly
-import pinVideo from "/videos/pin-video.mp4"; // or "../assets/pin-video.mp4"
+import pinVideo from "/videos/newPin.mp4"; // or "../assets/pin-video.mp4"
 import circleText from "../assets/circle-text.svg";
 import playIcon from "../assets/play.svg";
 

@@ -127,7 +127,7 @@ const Showcase = () => {
         </div>
       </div>
 
-      <div className="content">
+      <div className="content" data-aos="zoom-in-right">
         <div className="services-wrapper">
           <h2 className="services-heading">Inovate. Secure. Transform.</h2>
 

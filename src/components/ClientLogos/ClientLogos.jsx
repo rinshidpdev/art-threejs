@@ -17,7 +17,7 @@ const ClientLogos = () => {
   const loopLogos = [...logos, ...logos, ...logos];
 
   return (
-    <section className="w-full bg-[#000000] py-8 md:py-12">
+    <section className="w-full bg-[#000000] py-8 md:py-12" data-aos="fade-left">
       <div className="mx-auto max-w-6xl px-4">
         {/* Container with flex-col on mobile, flex-row on desktop */}
         <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">

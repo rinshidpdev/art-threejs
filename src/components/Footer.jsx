@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaEnvelope, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -11,6 +13,7 @@ const Footer = () => {
             <li><a href="/about">About</a></li>
             <li><a href="/services">Services</a></li>
             <li><a href="/contact">Contact</a></li>
+            <li><a href="blog/1">Blog</a></li>
           </ul>
         </div>
 
@@ -41,10 +44,28 @@ const Footer = () => {
           <p>Office No. 1-264,</p>
           <p> Al Quoz, Dubai, UAE</p>
           <div className="contact-info">
-            <p><span className="icon email-icon">&#9993;</span> sales@artiflexit.com</p>
-            <p><span className="icon phone-icon" style={{backgroundColor:'white'}}>&#128222;</span> +971 55 808 6462</p>
-            <p><span className="icon whatsapp-icon">&#128172;</span> +971 55 808 6462</p>
-          </div>
+  <p>
+    <span className="icon email-icon">
+      <FaEnvelope />
+    </span>
+    sales@artiflexit.com
+  </p>
+
+  <p>
+    <span className="icon phone-icon">
+      <FaPhoneAlt />
+    </span>
+    +971 55 808 6462
+  </p>
+
+  <p>
+    <span className="icon whatsapp-icon">
+      <FaWhatsapp />
+    </span>
+    +971 55 808 6462
+  </p>
+</div>
+
         </div>
 
         <div className="footer-section social-section">
@@ -85,7 +106,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025 Artiflex IT All Rights Reserved.</p>
+        <p>© 2026 Artiflex IT All Rights Reserved.</p>
         {/* <p> is a part of Element 8 Group</p> */}
       </div>
     </div>

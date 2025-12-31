@@ -235,7 +235,8 @@ export default function ParallaxScroll() {
           }}>
             <div style={{
               fontSize: '4dvw',
-              textAlign: 'center'
+              textAlign: 'center',
+              color: '#2563eb'
             }}>
               About us
             </div>

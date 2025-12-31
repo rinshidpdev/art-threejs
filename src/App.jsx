@@ -33,7 +33,8 @@
 // }
 
 // export default App
-import React from "react";
+import React, { useEffect } from "react";
+
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/ServicesSec";
 import CyberSecurityPage from "./components/services/CyberSecurity";
@@ -49,15 +50,29 @@ import Navbar from "./components/Navbar";
 import ServiceSec from "./pages/About";
 import Contact from "./pages/Contact";
 import FooterWithStyles from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 
 
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,     // animation duration
+      once: true,         // animate only once
+      easing: "ease-in-out",
+      offset: 100,
+    });
+  }, []);
   return (
      
       <>
        <Navbar/>
+       <ScrollToTop/>
     <Routes>
     
        <Route path="/" element={<Home/>}/>

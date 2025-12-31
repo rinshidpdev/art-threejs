@@ -3074,7 +3074,7 @@ const styles = {
     fontWeight: 600,
     letterSpacing: '0.04em',
     textTransform: 'uppercase',
-    background: 'rgba(15, 23, 42, 0.85)',
+    background: '#2563eb',
     color: '#e5e7eb',
     border: '1px solid rgba(148, 163, 184, 0.4)',
     backdropFilter: 'blur(10px)',

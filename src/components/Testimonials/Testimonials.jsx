@@ -199,7 +199,7 @@ const Testimonials = () => {
     <div className="bg-gradient-to-b from-[#00000] to-black py-16 md:py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 mb-12 md:mb-16">
         <div className="text-center">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#2563eb] mb-4 md:mb-6">
             Happiness speaks
           </h2>
 

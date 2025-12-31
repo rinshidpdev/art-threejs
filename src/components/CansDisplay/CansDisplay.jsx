@@ -47,7 +47,7 @@ const shakeAnimation = {
 
 const CansDisplay = () => {
   return (
-    <div className="cans-container">
+    <div className="cans-container" data-aos="fade-left">
       <div className="can-item">
         <motion.img src={can1} alt="Can 1" className="can" {...shakeAnimation} />
         <p className="can-label">Innovate</p>
